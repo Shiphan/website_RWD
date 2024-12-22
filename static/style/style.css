@@ -57,7 +57,7 @@ body {
 }
 
 /* vertical */
-@media (max-aspect-ratio: 1/1) {
+@media (orientation: portrait) {
     .card-view-ratio {
         aspect-ratio: 1/2;
         /* transition: all 500ms ease-out; */
@@ -89,7 +89,7 @@ body {
 }
 
 /* horizontal */
-@media (min-aspect-ratio: 1/1) {
+@media (orientation: landscape) {
     .card-view-ratio {
         aspect-ratio: 2/1;
         /* transition: all 500ms ease-out; */
